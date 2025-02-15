@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in VBScript's CreateObject function and provides a solution.  The original code fails silently if the specified COM object is unavailable. The improved version adds explicit checks to ensure the object exists before use, improving robustness and preventing unexpected application behavior.
